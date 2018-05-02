@@ -1,0 +1,29 @@
+{
+    "name": "sunnysideup/presentation",
+    "type": "silverstripe-module",
+    "description": "Adds slides to your Silverstripe website.  Each slide is represented by one page and you can cycle through them.",
+    "keywords": [
+        "Silverstripe-CMS",
+        "CMS",
+        "Silverstripe",
+        "presentation",
+        "powerpoint",
+        "slideshow",
+        "slides"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Nicolaas Francken",
+            "email": "modules@sunnysideup.co.nz",
+            "role": "lead developer"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "~3.6",
+        "silverstripe/cms": "~3.6"
+    },
+    "extra": {
+        "installer-name": "presentation"
+    }
+}
